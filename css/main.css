@@ -1,0 +1,102 @@
+.block1 {
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.block1 .menu a {
+    display: block;
+   text-decoration: none;
+   color: #7b7b7b;
+   font-size: 1.300em;
+   padding: 10px 10px;
+   margin-bottom: 30px;
+}
+.block1 .menu a:hover,
+.block1 .menu a.active {
+    color: #ffffff;
+    font-weight:bold;
+    background-color: #ebb217;
+background-color: #ebb217;
+border-radius: 25px;
+}
+.block1 .items{
+    padding-left:25px;
+}
+
+.block1 .items .sort {
+    margin-bottom: 25px;
+}
+
+.block1 .items .sort p {
+    color: #444444;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 40px;
+}
+.block1 .items .sort p a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    width: 65px;
+    background: url('') no-repeat;
+    background-position: 100% 50%;
+    }
+    .block1 .items .boxes {
+        flex-wrap: wrap;
+    }
+    .block1 .items .boxes .box {
+        margin-bottom: 28px;
+    }
+.block1 .items .box figure figcaption{
+    padding: left 23px;
+  color: #4b4b4e;
+}
+ .box figure figcaption {
+    font-size: 0.938em;
+}
+
+.box figure figcaption p span {
+    font-size: 1.120em;
+  font-weight: 600;
+}
+.box figure .tilte {
+    color: #4b4b4e;
+    font-size: 0.875em;
+    padding: left 23px;
+}
+.box .tilte {
+    color: #4b4b4e;
+    font-size: 0.875em;
+    padding: left 23px;
+    margin-top: 10px;
+}
+.box button {
+   width: 100%;
+   padding: 12px;
+   border-radius: 20px;
+   background-color: #dfa52b;
+   color: #fff;
+   margin-top: 15px;
+   border: none;
+}
+.box button:hover {
+ cursor: pointer;
+
+}
+.news h2  {
+text-align: center;
+margin: 0 300px;
+color: red;
+font-size: 1.875em;
+font-weight: 600;
+}
+.adv div figure {
+    margin: 0 300px;
+    text-align: center;
+}
+.adv div figure figcaption {
+    color: red;
+    font-size: 2em;
+    font-weight: 300;
+}
